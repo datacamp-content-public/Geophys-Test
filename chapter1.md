@@ -15,7 +15,7 @@ key: 89ce975940
 
 
 `@instructions`
-Print the first value in the array 
+Print the first value in the array a
 `@hint`
 
 `@pre_exercise_code`
@@ -33,7 +33,10 @@ print(a[...])
 
 `@solution`
 ```{python}
-a[0]
+import numpy as np
+a = np.arange(20)
+
+print(a[0])
 ```
 
 `@sct`
